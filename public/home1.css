@@ -1,0 +1,176 @@
+*{
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main_container{
+    height: 100vh;
+    width: 100vw; 
+}
+
+.navbar{
+    background-color: black;
+    width: 100%;
+    height:4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+.nav-options{
+    display: flex;
+    margin-right: 2rem;
+}
+#nav-btn{
+    background-color: transparent;
+    border-radius: 2rem;
+    height: 2rem;
+    width: 7rem;
+}
+
+
+
+.nav-logo a{
+    color: #e50914;
+    /* padding-left: 2rem; */
+    font-size: 3rem;
+    text-decoration: none;
+}
+.nav-logo{
+    margin-left: 2rem;
+}
+.nav-option{
+    margin-left: 3rem;
+    
+}
+.nav-option a{
+    color: white;
+    font-size: 1.2rem;
+}
+.nav-option i{
+    color: white;
+    font-size: 1.4rem;
+    margin-right: 0.5rem;
+}
+
+.intro-startfree{
+    width: 100%;
+    height: 60rem;
+    background:url("Watch-Free-Hero-2048x1152-3\ \(1\).png");
+    background-size: cover;
+}
+
+.text-start-free{
+    position:absolute;
+    color: white;
+    left: 150px;
+    top: 250px;
+    /* height: 15rem; */
+    /* width: 100%; */
+    font-size: 1.5rem;
+}
+.start-free-btn{
+    height: 2rem;
+    width: 8rem;
+    background-color:#e50914;
+    opacity: 0.8;
+    border-radius: 5%;
+    margin-top: 0.5rem;
+    text-align: center;
+    /* border: 2px solid red; */
+
+    
+    
+}
+.start-btn-a{
+    color: black;
+    font-weight: 600;
+}
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	/* flex-wrap: wrap; */
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color:#000000;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: rgba(255, 2, 2, 0.677);
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	/* content: ''; */
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: rgb(225, 228, 233);
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(239, 239, 239, 0.683);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: rgb(29, 41, 60);
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+    .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+    .footer-col{
+    width: 100%;
+}
+}
